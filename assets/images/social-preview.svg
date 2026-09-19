@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071929"/><stop offset="1" stop-color="#0a5260"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#78d2d0" stroke-opacity=".12"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="86" y="84" width="76" height="76" rx="18" fill="#087f8c"/>
+  <text x="124" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="25" fill="white">MT</text>
+  <text x="86" y="258" font-family="Arial,sans-serif" font-weight="700" font-size="64" fill="white">Mohammed Farrag Tolba</text>
+  <text x="86" y="330" font-family="Arial,sans-serif" font-weight="600" font-size="32" fill="#78d2d0">AI Hardware · Computer Architecture</text>
+  <text x="86" y="380" font-family="Arial,sans-serif" font-weight="600" font-size="28" fill="#78d2d0">LLM Acceleration · FPGA / ASIC</text>
+  <text x="86" y="454" font-family="Arial,sans-serif" font-size="27" fill="#c2d8dc">PhD Candidate at Khalifa University</text>
+  <g transform="translate(930 205) rotate(45)"><rect width="160" height="160" rx="28" fill="none" stroke="#78d2d0" stroke-opacity=".6"/><rect x="27" y="27" width="106" height="106" rx="20" fill="none" stroke="#d89a34" stroke-opacity=".55"/><rect x="54" y="54" width="52" height="52" rx="11" fill="#087f8c"/></g>
+</svg>
