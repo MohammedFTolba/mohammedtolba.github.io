@@ -4,14 +4,14 @@ A responsive, dependency-free academic and professional website prepared for Git
 
 ## Publish on GitHub Pages
 
-1. Create a public GitHub repository named exactly `mohammedtolba.github.io`.
+1. Use the public repository `mohammedftolba/mohammedtolba.github.io`.
 2. Upload everything in this folder to the repository root.
 3. In the repository, open **Settings → Pages**.
 4. Under **Build and deployment**, choose **Deploy from a branch**.
 5. Select the `main` branch and `/ (root)`, then save.
-6. GitHub will publish the website at `https://mohammedtolba.github.io/`.
+6. GitHub will publish the website at `https://mohammedftolba.github.io/mohammedtolba.github.io/`.
 
-If you use another repository name, the address becomes `https://mohammedtolba.github.io/<repository-name>/`.
+If the repository is renamed to `mohammedftolba.github.io`, the shorter address will become `https://mohammedftolba.github.io/`.
 
 ## Files to edit later
 

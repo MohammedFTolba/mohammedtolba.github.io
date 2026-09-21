@@ -43,6 +43,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
 
 body {
   margin: 0;
+  overflow-x: hidden;
   color: var(--ink);
   background: var(--surface);
   font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -152,7 +153,7 @@ button { font: inherit; }
 
 .hero {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   padding: 92px 0 0;
   background:
     radial-gradient(circle at 84% 20%, rgba(14, 156, 168, 0.16), transparent 25%),
@@ -241,7 +242,7 @@ h1 { max-width: 760px; margin: 22px 0 24px; font-size: clamp(3.2rem, 6vw, 5.35re
 .role-tags { justify-content: center; }
 .role-tags span { padding: 6px 9px; color: #cceff0; background: rgba(14, 156, 168, 0.12); border: 1px solid rgba(119, 220, 224, 0.18); border-radius: 999px; font-size: 10px; font-weight: 700; }
 
-.metrics { position: relative; z-index: 4; display: grid; margin-top: 62px; margin-bottom: -54px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-md); box-shadow: var(--shadow-lg); grid-template-columns: repeat(4, 1fr); }
+.metrics { position: relative; z-index: 4; display: grid; margin-top: 62px; margin-bottom: -54px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-md); box-shadow: var(--shadow-lg); grid-template-columns: repeat(3, 1fr); }
 .metric { min-height: 122px; padding: 25px 28px; border-right: 1px solid var(--line); }
 .metric:last-child { border-right: 0; }
 .metric strong { display: block; margin-bottom: 7px; color: var(--navy-800); font-size: 26px; line-height: 1; letter-spacing: -0.04em; }
@@ -385,9 +386,7 @@ h1 { max-width: 760px; margin: 22px 0 24px; font-size: clamp(3.2rem, 6vw, 5.35re
   .hero-copy { padding-bottom: 0; }
   .hero-panel { width: min(100%, 430px); max-width: none; justify-self: start; }
   .portrait-card { transform: none; }
-  .metrics { grid-template-columns: 1fr 1fr; }
-  .metric:nth-child(2) { border-right: 0; }
-  .metric:nth-child(-n + 2) { border-bottom: 1px solid var(--line); }
+  .metrics { grid-template-columns: repeat(3, 1fr); }
   .split-layout { grid-template-columns: 1fr; gap: 35px; }
   .section-heading-wide { align-items: start; flex-direction: column; gap: 22px; }
   .research-grid,
